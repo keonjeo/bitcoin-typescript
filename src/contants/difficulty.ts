@@ -1,3 +1,3 @@
-const DIFFICULTY: number = 2
+const DIFFICULTY: number = 2;
 
-export default DIFFICULTY
+export default DIFFICULTY;
