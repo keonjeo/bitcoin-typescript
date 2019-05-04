@@ -20,7 +20,8 @@
     "start": "yarn compile && node compiledSrc/index.js",
     "compile": "tsc --outDir compiledSrc",
     "prettier": "prettier --config .prettierrc --write '**/*.{ts, json}'",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit": "git add . && git-cz"
   },
   "repository": {
     "type": "git",
@@ -42,11 +43,17 @@
   },
   "devDependencies": {
     "@types/prettier": "^1.16.3",
+    "cz-conventional-changelog": "2.1.0",
     "husky": "^2.2.0",
     "lint-staged": "^8.1.6",
     "prettier": "^1.17.0",
     "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
