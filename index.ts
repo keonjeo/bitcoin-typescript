@@ -1,4 +1,4 @@
-import { CalculateHash } from './src/block';
+import { CalculateHash } from './src/block'
 
 console.log(
   CalculateHash({
@@ -10,4 +10,4 @@ console.log(
     Difficulty: 2,
     Nonce: '232323'
   })
-);
+)
