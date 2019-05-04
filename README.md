@@ -1,5 +1,10 @@
-# bitcoin-typescript
+# Bitcoin-typescript
 bitcoin typescript version
 
-# todo list
+# How to run
+ + node env
+ + npm install -g typescript yarn
+ + yarn start
+
+# Todo list
  + complete the basic function

@@ -1,0 +1,28 @@
+{
+  "name": "bitcoin-typescript",
+  "version": "1.0.0",
+  "description": "typescript bitcoin version",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc index.ts",
+    "start": "yarn compile && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phys1cal/bitcoin-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "bitcoin",
+    "crypto"
+  ],
+  "author": "linmiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phys1cal/bitcoin-typescript/issues"
+  },
+  "homepage": "https://github.com/phys1cal/bitcoin-typescript#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
