@@ -11,18 +11,8 @@ describe('test CalculateHash func cryto', () => {
       Difficulty: 2,
       Nonce: '232323'
     }
-    expect(CalculateHash(blockMessage)).toEqual({
-      sigBytes: 32,
-      words: [
-        1548122984,
-        1813881211,
-        -630577237,
-        538389316,
-        -1572333747,
-        1573750405,
-        1854121999,
-        1452753498
-      ]
-    })
+    expect(CalculateHash(blockMessage)).toEqual(
+      '5c467b686c1da17bda6a27ab20172b44a248174d5dcd86856e83a80f5697425a'
+    )
   })
 })

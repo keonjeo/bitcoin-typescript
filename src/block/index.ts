@@ -17,5 +17,5 @@ export function CalculateHash(block: Block): string {
   const { Index, Timestamp, Content, Hash, PreHash, Difficulty, Nonce } = block
   return sha256(
     `${Index}${Timestamp}${Content}${Hash}${PreHash}${Difficulty}${Nonce}`
-  )
+  ).toString()
 }
