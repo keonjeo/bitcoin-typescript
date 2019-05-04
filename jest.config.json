@@ -1,0 +1,30 @@
+{
+  "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+  "setupFiles": ["<rootDir>src/setupTests.js"],
+  "testMatch": [
+    "<rootDir>/src/**/__tests__/**/*.ts?(x)",
+    "<rootDir>/src/**/?(*.)(spec|test).ts?(x)"
+  ],
+  "testEnvironment": "node",
+  "testURL": "https://localhost",
+  "transform": {
+    "^.+\\.ts$": "<rootDir>/node_modules/babel-jest",
+    "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+  },
+  "moduleNameMapper": {
+    "^react-native$": "react-native-web",
+    "\\.(css|scss)$": "identity-obj-proxy"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "web.js",
+    "js",
+    "json",
+    "web.jsx",
+    "jsx",
+    "node"
+  ],
+  "globals": {
+    "_": true
+  }
+}
