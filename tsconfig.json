@@ -1,11 +1,14 @@
 {
   "compileOnSave": true,
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "compiledSrc"
   ],
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "sourceMap": true
+    "sourceMap": true,
+    "removeComments": true,
+    "resolveJsonModule": true
   }
 }

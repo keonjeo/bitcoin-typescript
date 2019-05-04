@@ -64,4 +64,5 @@ yarn.lock
 .vscode
 
 # javascript
-index.js
+*.js
+*.js.map

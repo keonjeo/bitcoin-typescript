@@ -1,5 +1,11 @@
-function main(per: number): number {
-  return per * 2
-}
+import { CalculateHash } from './src/block'
 
-console.log(main(333))
+console.log(CalculateHash({
+  Index: 1,
+  Timestamp: '23232',
+  Content: '23232',
+  Hash: 'fafafa',
+  PreHash: 'fljfljfjlajl',
+  Difficulty: 2,
+  Nonce: "232323"
+}))

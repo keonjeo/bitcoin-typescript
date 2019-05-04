@@ -2,10 +2,10 @@
   "name": "bitcoin-typescript",
   "version": "1.0.0",
   "description": "typescript bitcoin version",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "compile": "tsc index.ts",
-    "start": "yarn compile && node index.js"
+    "compile": "tsc --outDir compiledSrc",
+    "start": "yarn compile && node compiledSrc/index.js"
   },
   "repository": {
     "type": "git",
