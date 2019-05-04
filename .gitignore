@@ -64,5 +64,7 @@ yarn.lock
 .vscode
 
 # javascript
-*.js
 *.js.map
+
+# tsc
+compiledSrc/*
